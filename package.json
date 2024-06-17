@@ -1,0 +1,16 @@
+{
+  "name": "cra-be",
+  "version": "1.0.0",
+  "description": "this is the CRA project backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "express",
+    "cra"
+  ],
+  "author": "Satyam Kumar Singh",
+  "license": "ISC"
+}
