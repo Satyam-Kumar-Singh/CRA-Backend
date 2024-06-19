@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import userRoutes from './routes/userRoutes.js';
+import protectedRoutesForAdmin from './routes/protectedRoutesForAdmin.js';
 
 const app = express();
 
@@ -14,6 +15,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/users',userRoutes);
+app.use('/api/admin',protectedRoutesForAdmin)
 
 
 
